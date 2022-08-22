@@ -1,0 +1,610 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x3 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+waiting for download
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6936
+load:0x40078000,len:15388
+ho 0 tail 12 room 4
+load:0x40080400,len:3824
+entry 0x4008064c
+[0;32mI (29) boot: ESP-IDF v5.0-dev-4674-g7bfb89e3b3 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time 15:00:24[0m
+[0;32mI (29) boot: chip revision: V100[0m
+[0;32mI (33) boot_comm: chip revision: 1, min. bootloader chip revision: 0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) boot_comm: chip revision: 1, min. application chip revision: 0[0m
+[0;32mI (104) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=07914h ( 30996) map[0m
+[0;32mI (124) esp_image: segment 1: paddr=0001793c vaddr=3ffb0000 size=02648h (  9800) load[0m
+[0;32mI (128) esp_image: segment 2: paddr=00019f8c vaddr=40080000 size=0608ch ( 24716) load[0m
+[0;32mI (142) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=15590h ( 87440) map[0m
+[0;32mI (174) esp_image: segment 4: paddr=000355b8 vaddr=4008608c size=056bch ( 22204) load[0m
+[0;32mI (183) esp_image: segment 5: paddr=0003ac7c vaddr=50000000 size=00010h (    16) load[0m
+[0;32mI (190) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (190) boot: Disabling RNG early entropy source...[0m
+[0;32mI (205) cpu_start: Pro cpu up.[0m
+[0;32mI (205) cpu_start: Starting app cpu, entry point is 0x40081064[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (219) cpu_start: Pro cpu start user code[0m
+[0;32mI (219) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (219) cpu_start: Application information:[0m
+[0;32mI (224) cpu_start: Project name:     q1[0m
+[0;32mI (228) cpu_start: App version:      1[0m
+[0;32mI (233) cpu_start: Compile time:     Aug 22 2022 15:00:15[0m
+[0;32mI (239) cpu_start: ELF file SHA256:  7110490c0d55a881...[0m
+[0;32mI (245) cpu_start: ESP-IDF:          v5.0-dev-4674-g7bfb89e3b3[0m
+[0;32mI (252) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (259) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFB2F40 len 0002D0C0 (180 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (277) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (284) heap_init: At 4008B748 len 000148B8 (82 KiB): IRAM[0m
+[0;32mI (291) spi_flash: detected chip: generic[0m
+[0;32mI (295) spi_flash: flash io: dio[0m
+[0;33mW (299) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (313) cpu_start: Starting scheduler on PRO CPU.[0m
+[0;32mI (0) cpu_start: Starting scheduler on APP CPU.[0m
+Here is the task 1 created
+Task 5
+Task 4
+Task 3
+Task 5 Received Data is 1
+Task 4  sending data to Task 5
+Task 2
+Task 5 Received Data is 2
+Task 4  sending data to Task 5
+Task 5 Received Data is 3
+Task 4  sending data to Task 5
+Task 5 Received Data is 4
+Task 4  sending data to Task 5
+Task 5 Received Data is 5
+Task 4  sending data to Task 5
+Task 5 Received Data is 6
+Task 4  sending data to Task 5
+Task 5 Received Data is 7
+Task 4  sending data to Task 5
+Task 5 Received Data is 8
+Task 4  sending data to Task 5
+Task 5 Received Data is 9
+Task 4  sending data to Task 5
+Task 5 Received Data is 10
+Task 4  sending data to Task 5
+Task 5 Received Data is 11
+Task 4  sending data to Task 5
+Task 5 Received Data is 12
+Task 4  sending data to Task 5
+Task 5 Received Data is 13
+Task 4  sending data to Task 5
+Task 5 Received Data is 14
+Task 4  sending data to Task 5
+Task 5 Received Data is 15
+Task 4  sending data to Task 5
+Task 5 Received Data is 16
+Task 4  sending data to Task 5
+Task 5 Received Data is 17
+Task 4  sending data to Task 5
+Task 5 Received Data is 18
+Task 4  sending data to Task 5
+Task 5 Received Data is 19
+Task 4  sending data to Task 5
+Task 5 Received Data is 20
+Task 4  sending data to Task 5
+Task 5 Received Data is 21
+Task 4  sending data to Task 5
+Task 5 Received Data is 22
+Task 4  sending data to Task 5
+Task 5 Received Data is 23
+Task 4  sending data to Task 5
+Task 5 Received Data is 24
+Task 4  sending data to Task 5
+Task 5 Received Data is 25
+Task 4  sending data to Task 5
+Task 5 Received Data is 26
+Task 4  sending data to Task 5
+Task 5 Received Data is 27
+Task 4  sending data to Task 5
+Task 5 Received Data is 28
+Task 4  sending data to Task 5
+Task 5 Received Data is 29
+Task 4  sending data to Task 5
+Task 5 Received Data is 30
+Task 4  sending data to Task 5
+Task 5 Received Data is 31
+Task 4  sending data to Task 5
+Task 5 Received Data is 32
+Task 4  sending data to Task 5
+Task 5 Received Data is 33
+Task 4  sending data to Task 5
+Task 5 Received Data is 34
+Task 4  sending data to Task 5
+Task 5 Received Data is 35
+Task 4  sending data to Task 5
+Task 5 Received Data is 36
+Task 4  sending data to Task 5
+Task 5 Received Data is 37
+Task 4  sending data to Task 5
+Task 5 Received Data is 38
+Task 4  sending data to Task 5
+Task 5 Received Data is 39
+Task 4  sending data to Task 5
+Task 5 Received Data is 40
+Task 4  sending data to Task 5
+Task 5 Received Data is 41
+Task 4  sending data to Task 5
+Task 5 Received Data is 42
+Task 4  sending data to Task 5
+Task 5 Received Data is 43
+Task 4  sending data to Task 5
+Task 5 Received Data is 44
+Task 4  sending data to Task 5
+Task 5 Received Data is 45
+Task 4  sending data to Task 5
+Task 5 Received Data is 46
+Task 4  sending data to Task 5
+Task 5 Received Data is 47
+Task 4  sending data to Task 5
+Task 5 Received Data is 48
+Task 4  sending data to Task 5
+Task 5 Received Data is 49
+Task 4  sending data to Task 5
+Task 5 Received Data is 50
+Task 4  sending data to Task 5
+Task 5 Received Data is 51
+Task 4  sending data to Task 5
+Task 5 Received Data is 52
+Task 4  sending data to Task 5
+Task 5 Received Data is 53
+Task 4  sending data to Task 5
+Task 5 Received Data is 54
+Task 4  sending data to Task 5
+Task 5 Received Data is 55
+Task 4  sending data to Task 5
+Task 5 Received Data is 56
+Task 4  sending data to Task 5
+Task 5 Received Data is 57
+Task 4  sending data to Task 5
+Task 5 Received Data is 58
+Task 4  sending data to Task 5
+Task 5 Received Data is 59
+Task 4  sending data to Task 5
+Task 5 Received Data is 60
+Task 4  sending data to Task 5
+Task 5 Received Data is 61
+Task 4  sending data to Task 5
+Task 5 Received Data is 62
+Task 4  sending data to Task 5
+Task 5 Received Data is 63
+Task 4  sending data to Task 5
+Task 5 Received Data is 64
+Task 4  sending data to Task 5
+Task 5 Received Data is 65
+Task 4  sending data to Task 5
+Task 5 Received Data is 66
+Task 4  sending data to Task 5
+Task 5 Received Data is 67
+Task 4  sending data to Task 5
+Task 5 Received Data is 68
+Task 4  sending data to Task 5
+Task 5 Received Data is 69
+Task 4  sending data to Task 5
+Task 5 Received Data is 70
+Task 4  sending data to Task 5
+Task 5 Received Data is 71
+Task 4  sending data to Task 5
+Task 5 Received Data is 72
+Task 4  sending data to Task 5
+Task 5 Received Data is 73
+Task 4  sending data to Task 5
+Task 5 Received Data is 74
+Task 4  sending data to Task 5
+Task 5 Received Data is 75
+Task 4  sending data to Task 5
+Task 5 Received Data is 76
+Task 4  sending data to Task 5
+Task 5 Received Data is 77
+Task 4  sending data to Task 5
+Task 5 Received Data is 78
+Task 4  sending data to Task 5
+Task 5 Received Data is 79
+Task 4  sending data to Task 5
+Task 5 Received Data is 80
+Task 4  sending data to Task 5
+Task 5 Received Data is 81
+Task 4  sending data to Task 5
+Task 5 Received Data is 82
+Task 4  sending data to Task 5
+Task 5 Received Data is 83
+Task 4  sending data to Task 5
+Task 5 Received Data is 84
+Task 4  sending data to Task 5
+Task 5 Received Data is 85
+Task 4  sending data to Task 5
+Task 5 Received Data is 86
+Task 4  sending data to Task 5
+Task 5 Received Data is 87
+Task 4  sending data to Task 5
+Task 5 Received Data is 88
+Task 4  sending data to Task 5
+Task 5 Received Data is 89
+Task 4  sending data to Task 5
+Task 5 Received Data is 90
+Task 4  sending data to Task 5
+Task 5 Received Data is 91
+Task 4  sending data to Task 5
+Task 5 Received Data is 92
+Task 4  sending data to Task 5
+Task 5 Received Data is 93
+Task 4  sending data to Task 5
+Task 5 Received Data is 94
+Task 4  sending data to Task 5
+Task 5 Received Data is 95
+Task 4  sending data to Task 5
+Task 5 Received Data is 96
+Task 4  sending data to Task 5
+Task 5 Received Data is 97
+Task 4  sending data to Task 5
+Task 5 Received Data is 98
+Task 4  sending data to Task 5
+Task 5 Received Data is 99
+Task 4  sending data to Task 5
+Task 5 Received Data is 100
+Task 4  sending data to Task 5
+Task 5 Received Data is 101
+Task 4  sending data to Task 5
+Task 5 Received Data is 102
+Task 4  sending data to Task 5
+Task 5 Received Data is 103
+Task 4  sending data to Task 5
+Task 5 Received Data is 104
+Task 4  sending data to Task 5
+Task 5 Received Data is 105
+Task 4  sending data to Task 5
+Task 5 Received Data is 106
+Task 4  sending data to Task 5
+Task 5 Received Data is 107
+Task 4  sending data to Task 5
+Task 5 Received Data is 108
+Task 4  sending data to Task 5
+Task 5 Received Data is 109
+Task 4  sending data to Task 5
+Task 5 Received Data is 110
+Task 4  sending data to Task 5
+Task 5 Received Data is 111
+Task 4  sending data to Task 5
+Task 5 Received Data is 112
+Task 4  sending data to Task 5
+Task 5 Received Data is 113
+Task 4  sending data to Task 5
+Task 5 Received Data is 114
+Task 4  sending data to Task 5
+Task 5 Received Data is 115
+Task 4  sending data to Task 5
+Task 5 Received Data is 116
+Task 4  sending data to Task 5
+Task 5 Received Data is 117
+Task 4  sending data to Task 5
+Task 5 Received Data is 118
+Task 4  sending data to Task 5
+Task 5 Received Data is 119
+Task 4  sending data to Task 5
+Task 5 Received Data is 120
+Task 4  sending data to Task 5
+Task 5 Received Data is 121
+Task 4  sending data to Task 5
+Task 5 Received Data is 122
+Task 4  sending data to Task 5
+Task 5 Received Data is 123
+Task 4  sending data to Task 5
+Task 5 Received Data is 124
+Task 4  sending data to Task 5
+Task 5 Received Data is 125
+Task 4  sending data to Task 5
+Task 5 Received Data is 126
+Task 4  sending data to Task 5
+Task 5 Received Data is 127
+Task 4  sending data to Task 5
+Task 5 Received Data is 128
+Task 4  sending data to Task 5
+Task 5 Received Data is 129
+Task 4  sending data to Task 5
+Task 5 Received Data is 130
+Task 4  sending data to Task 5
+Task 5 Received Data is 131
+Task 4  sending data to Task 5
+Task 5 Received Data is 132
+Task 4  sending data to Task 5
+Task 5 Received Data is 133
+Task 4  sending data to Task 5
+Task 5 Received Data is 134
+Task 4  sending data to Task 5
+Task 5 Received Data is 135
+Task 4  sending data to Task 5
+Task 5 Received Data is 136
+Task 4  sending data to Task 5
+Task 5 Received Data is 137
+Task 4  sending data to Task 5
+Task 5 Received Data is 138
+Task 4  sending data to Task 5
+Task 5 Received Data is 139
+Task 4  sending data to Task 5
+Task 5 Received Data is 140
+Task 4  sending data to Task 5
+Task 5 Received Data is 141
+Task 4  sending data to Task 5
+Task 5 Received Data is 142
+Task 4  sending data to Task 5
+Task 5 Received Data is 143
+Task 4  sending data to Task 5
+Task 5 Received Data is 144
+Task 4  sending data to Task 5
+Task 5 Received Data is 145
+Task 4  sending data to Task 5
+Task 5 Received Data is 146
+Task 4  sending data to Task 5
+Task 5 Received Data is 147
+Task 4  sending data to Task 5
+Task 5 Received Data is 148
+Task 4  sending data to Task 5
+Task 5 Received Data is 149
+Task 4  sending data to Task 5
+Task 5 Received Data is 150
+Task 4  sending data to Task 5
+Task 5 Received Data is 151
+Task 4  sending data to Task 5
+Task 5 Received Data is 152
+Task 4  sending data to Task 5
+Task 5 Received Data is 153
+Task 4  sending data to Task 5
+Task 5 Received Data is 154
+Task 4  sending data to Task 5
+Task 5 Received Data is 155
+Task 4  sending data to Task 5
+Task 5 Received Data is 156
+Task 4  sending data to Task 5
+Task 5 Received Data is 157
+Task 4  sending data to Task 5
+Task 5 Received Data is 158
+Task 4  sending data to Task 5
+Task 5 Received Data is 159
+Task 4  sending data to Task 5
+Task 5 Received Data is 160
+Task 4  sending data to Task 5
+Task 5 Received Data is 161
+Task 4  sending data to Task 5
+Task 5 Received Data is 162
+Task 4  sending data to Task 5
+Task 5 Received Data is 163
+Task 4  sending data to Task 5
+Task 5 Received Data is 164
+Task 4  sending data to Task 5
+Task 5 Received Data is 165
+Task 4  sending data to Task 5
+Task 5 Received Data is 166
+Task 4  sending data to Task 5
+Task 5 Received Data is 167
+Task 4  sending data to Task 5
+Task 5 Received Data is 168
+Task 4  sending data to Task 5
+Task 5 Received Data is 169
+Task 4  sending data to Task 5
+Task 5 Received Data is 170
+Task 4  sending data to Task 5
+Task 5 Received Data is 171
+Task 4  sending data to Task 5
+Task 5 Received Data is 172
+Task 4  sending data to Task 5
+Task 5 Received Data is 173
+Task 4  sending data to Task 5
+Task 5 Received Data is 174
+Task 4  sending data to Task 5
+Task 5 Received Data is 175
+Task 4  sending data to Task 5
+Task 5 Received Data is 176
+Task 4  sending data to Task 5
+Task 5 Received Data is 177
+Task 4  sending data to Task 5
+Task 5 Received Data is 178
+Task 4  sending data to Task 5
+Task 5 Received Data is 179
+Task 4  sending data to Task 5
+Task 5 Received Data is 180
+Task 4  sending data to Task 5
+Task 5 Received Data is 181
+Task 4  sending data to Task 5
+Task 5 Received Data is 182
+Task 4  sending data to Task 5
+Task 5 Received Data is 183
+Task 4  sending data to Task 5
+Task 5 Received Data is 184
+Task 4  sending data to Task 5
+Task 5 Received Data is 185
+Task 4  sending data to Task 5
+Task 5 Received Data is 186
+Task 4  sending data to Task 5
+Task 5 Received Data is 187
+Task 4  sending data to Task 5
+Task 5 Received Data is 188
+Task 4  sending data to Task 5
+Task 5 Received Data is 189
+Task 4  sending data to Task 5
+Task 5 Received Data is 190
+Task 4  sending data to Task 5
+Here is the task 1 created
+Task 5 Received Data is 191
+Task 4  sending data to Task 5
+Task 5 Received Data is 192
+Task 4  sending data to Task 5
+Task 5 Received Data is 193
+Task 4  sending data to Task 5
+Task 5 Received Data is 194
+Task 4  sending data to Task 5
+Task 5 Received Data is 195
+Task 4  sending data to Task 5
+Task 5 Received Data is 196
+Task 4  sending data to Task 5
+Task 5 Received Data is 197
+Task 4  sending data to Task 5
+Task 5 Received Data is 198
+Task 4  sending data to Task 5
+Task 5 Received Data is 199
+Task 4  sending data to Task 5
+Task 5 Received Data is 200
+Task 4  sending data to Task 5
+Task 5 Received Data is 201
+Task 4  sending data to Task 5
+Task 5 Received Data is 202
+Task 4  sending data to Task 5
+Task 5 Received Data is 203
+Task 4  sending data to Task 5
+Task 5 Received Data is 204
+Task 4  sending data to Task 5
+Task 5 Received Data is 205
+Task 4  sending data to Task 5
+Task 5 Received Data is 206
+Task 4  sending data to Task 5
+Task 5 Received Data is 207
+Task 4  sending data to Task 5
+Task 5 Received Data is 208
+Task 4  sending data to Task 5
+Task 5 Received Data is 209
+Task 4  sending data to Task 5
+Task 5 Received Data is 210
+Task 4  sending data to Task 5
+Task 5 Received Data is 211
+Task 4  sending data to Task 5
+Task 5 Received Data is 212
+Task 4  sending data to Task 5
+Task 5 Received Data is 213
+Task 4  sending data to Task 5
+Task 5 Received Data is 214
+Task 4  sending data to Task 5
+Task 5 Received Data is 215
+Task 4  sending data to Task 5
+Task 5 Received Data is 216
+Task 4  sending data to Task 5
+Task 5 Received Data is 217
+Task 4  sending data to Task 5
+Task 5 Received Data is 218
+Task 4  sending data to Task 5
+Task 5 Received Data is 219
+Task 4  sending data to Task 5
+Task 5 Received Data is 220
+Task 4  sending data to Task 5
+Task 5 Received Data is 221
+Task 4  sending data to Task 5
+Task 5 Received Data is 222
+Task 4  sending data to Task 5
+Task 5 Received Data is 223
+Task 4  sending data to Task 5
+Task 5 Received Data is 224
+Task 4  sending data to Task 5
+Task 5 Received Data is 225
+Task 4  sending data to Task 5
+Task 5 Received Data is 226
+Task 4  sending data to Task 5
+Task 5 Received Data is 227
+Task 4  sending data to Task 5
+Task 5 Received Data is 228
+Task 4  sending data to Task 5
+Task 5 Received Data is 229
+Task 4  sending data to Task 5
+Task 5 Received Data is 230
+Task 4  sending data to Task 5
+Task 5 Received Data is 231
+Task 4  sending data to Task 5
+Task 5 Received Data is 232
+Task 4  sending data to Task 5
+Task 5 Received Data is 233
+Task 4  sending data to Task 5
+Task 5 Received Data is 234
+Task 4  sending data to Task 5
+Task 5 Received Data is 235
+Task 4  sending data to Task 5
+Task 5 Received Data is 236
+Task 4  sending data to Task 5
+Task 5 Received Data is 237
+Task 4  sending data to Task 5
+Task 5 Received Data is 238
+Task 4  sending data to Task 5
+Task 5 Received Data is 239
+Task 4  sending data to Task 5
+Task 5 Received Data is 240
+Task 4  sending data to Task 5
+Task 5 Received Data is 241
+Task 4  sending data to Task 5
+Task 5 Received Data is 242
+Task 4  sending data to Task 5
+Task 5 Received Data is 243
+Task 4  sending data to Task 5
+Task 5 Received Data is 244
+Task 4  sending data to Task 5
+Task 5 Received Data is 245
+Task 4  sending data to Task 5
+Task 5 Received Data is 246
+Task 4  sending data to Task 5
+Task 5 Received Data is 247
+Task 4  sending data to Task 5
+Task 5 Received Data is 248
+Task 4  sending data to Task 5
+Task 5 Received Data is 249
+Task 4  sending data to Task 5
+Task 5 Received Data is 250
+Task 4  sending data to Task 5
+Task 5 Received Data is 251
+Task 4  sending data to Task 5
+Task 5 Received Data is 252
+Task 4  sending data to Task 5
+Task 5 Received Data is 253
+Task 4  sending data to Task 5
+Task 5 Received Data is 254
+Task 4  sending data to Task 5
+Task 5 Received Data is 255
+Task 4  sending data to Task 5
+Task 5 Received Data is 256
+Task 4  sending data to Task 5
+Task 5 Received Data is 257
+Task 4  sending data to Task 5
+Task 5 Received Data is 258
+Task 4  sending data to Task 5
+Task 5 Received Data is 259
+Task 4  sending data to Task 5
+Task 5 Received Data is 260
+Task 4  sending data to Task 5
+Task 5 Received Data is 261
+Task 4  sending data to Task 5
+Task 5 Received Data is 262
+Task 4  sending data to Task 5
+Task 5 Received Data is 263
+Task 4  sending data to Task 5
+Task 5 Received Data is 264
+Task 4  sending data to Task 5
+Task 5 Received Data is 265
+Task 4  sending data to Task 5
+Task 5 Received Data is 266
+Task 4  sending data to Task 5
+Task 5 Received Data is 267
+Task 4  sending data to Task 5
+Task 5 Received Data is 268
+Task 4  sending data to Task 5
+Task 5 Received Data is 269
+Task 4  sending data to Task 5
+Task 5 Received Data is 270
+Task 4  sending data to Task 5
+Task 5 Received Data is 271
+Task 4  sending data to Task 5
+Task 5 Received Data is 272
+Task 4  sending data to Task 5
